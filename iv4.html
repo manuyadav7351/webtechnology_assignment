@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment iv4</title>
+</head>
+<body>
+    <h1 id="rando"></h1>
+    <script>
+        var year = window.prompt("enter a year : ");
+        if(year % 400 == 0 && year % 100 == 0){
+            answer = "leap year";
+        }
+        else if(year % 4 ==0 && year % 100 != 0){
+            answer = "leap year";
+        }
+        else{
+            answer = "not a leap year";
+        }
+        document.getElementById("rando").innerHTML = answer;
+    </script>
+</body>
+</html>

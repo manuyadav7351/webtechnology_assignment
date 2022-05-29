@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment iv3</title>
+</head>
+<body>
+    <h1 id="rando"></h1>
+    <script>
+        let x = Math.floor((Math.random()*10)+1);
+        var number = window.prompt("enter your number : ");
+        if(number == x){
+            answer = "good work";
+        }
+        else{
+            answer = "not matched";
+        }
+        document.getElementById("rando").innerHTML = answer;
+    </script>
+</body>
+</html>
